@@ -1,10 +1,10 @@
-title {
-  display: none;
-}
-
 body {
   background-color: #262626;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
+
+/*pagina principal*/
 
 .homePage {
   height: 100vh;
@@ -13,7 +13,7 @@ body {
 .resume {
   position: relative;
   left: 50%;
-  top: 40%;
+  top: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
   font-family: "Poppins", sans-serif;
@@ -32,32 +32,57 @@ body {
   color: white;
 }
 
-/* GLOBAL STYLES
--------------------------------------------------- */
-/* Padding below the footer and lighter body text */
-
-body {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  color: rgb(var(--bs-tertiary-color-rgb));
+.lead {
+  font-family: "Poppins";
 }
 
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
-
-/* Carousel base class */
-.carousel {
-  margin-bottom: 4rem;
-}
-/* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-  bottom: 3rem;
-  z-index: 10;
+/* image */
+.images {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: right;
 }
 
-/* Declare heights because of positioning of img element */
-.carousel-item {
-  height: 32rem;
+/* text */
+.texts {
+  font-family: "Outfit", sans-serif;
+  padding: 0rem 0rem 0rem 2rem;
+}
+
+.titles {
+  font-family: "Grandiflora One", sans-serif;
+  padding: 2rem;
+  font-size: 5rem;
+  font-weight: bold;
+  letter-spacing: 0.5rem;
+}
+
+/* columns */
+
+.row {
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.col {
+  text-align: justify;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.text-col {
+  padding: 10px;
+  text-align: justify;
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  height: 100%;
 }
 
 /* MARKETING CONTENT
@@ -80,12 +105,13 @@ body {
 
 .featurette-divider {
   margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  color: white;
 }
 
 /* Thin out the marketing headings */
 /* rtl:begin:remove */
 .featurette-heading {
-  letter-spacing: -0.05rem;
+  font-family: "Poppins";
 }
 
 /* rtl:end:remove */
