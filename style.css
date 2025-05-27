@@ -38,7 +38,7 @@ body {
 
 /* image */
 .images {
-  height: 70vh;
+  height: 60vh;
   display: flex;
   align-items: center;
   justify-content: right;
@@ -63,8 +63,15 @@ body {
 .row {
   border: 1px solid white;
   border-radius: 10px;
+  height: 70vh;
 }
 
+.pagecontent {
+  height: 100vh; /* 100% of the viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .col {
   text-align: justify;
   padding: 10px;
@@ -82,7 +89,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: right;
-  height: 100%;
 }
 
 /* MARKETING CONTENT
