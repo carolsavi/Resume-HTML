@@ -17,7 +17,7 @@ body {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  color: #fff;
+  color: #dadada;
   font-family: "Poppins", sans-serif;
 }
 
@@ -31,7 +31,7 @@ body {
 }
 
 .nav-link {
-  color: white;
+  color: #dadada;
 }
 
 .lead {
@@ -39,15 +39,16 @@ body {
 }
 
 /* text */
+
 .texts {
   font-family: "Outfit", sans-serif;
   padding: 0rem 0rem 0rem 2rem;
-  color: white;
+  color: #dadada;
 }
 
 .subtitle {
   text-align: center;
-  color: white;
+  color: #dadada;
   font-family: "Outfit", sans-serif;
   margin-top: 10px;
 }
@@ -57,19 +58,11 @@ body {
   font-size: 5rem;
   font-weight: bold;
   letter-spacing: 0.5rem;
-  color: white;
+  color: #4d4a8c;
+  text-shadow: 2px 1.5px #4d818c;
 }
 
 /* columns */
-
-.row {
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
-  border-radius: 10px;
-  height: 70%;
-  width: 100%;
-  max-width: 1200px;
-}
 
 .pagecontent {
   height: 100vh;
@@ -78,12 +71,21 @@ body {
   align-items: center;
 }
 
+.row {
+  border-top: 1px solid #4d4a8c;
+  border-bottom: 1px solid #4d4a8c;
+  border-radius: 10px;
+  height: 70%;
+  width: 100%;
+  max-width: 1200px;
+}
+
 .col {
   text-align: justify;
   padding: 10px;
   display: flex;
   flex-direction: column;
-  color: white;
+  color: #dadada;
   height: 100%;
 }
 
@@ -98,30 +100,58 @@ body {
   justify-content: center;
   height: 100%;
   max-height: 70vh;
-  overflow: hidden; /* evita que a imagem ultrapasse */
 }
 
 .images {
   max-height: 90%;
   width: auto;
+  border: 1px solid #4d4a8c;
+  border-radius: 5px;
+  padding: 8px;
 }
 
 .card {
   background-color: transparent;
-  border: 1px solid white;
+  border: 2px solid #4d4a8c;
   border-radius: 10px;
-  color: white;
+  color: #dadada;
   text-align: justify;
   font-family: "Outfit", sans-serif;
   height: 90%;
 }
 
-.linksAndTags {
+.links {
   display: flex;
   justify-content: left;
   align-items: bottom;
   margin-bottom: 10px;
   margin-left: 10px;
+}
+
+.btn {
+  background-color: #4d4a8c;
+  border: #4d4a8c;
+  color: #dadada;
+}
+
+.tags {
+  padding: 10px;
+}
+
+.bg-java {
+  background-color: #efc573;
+}
+
+.bg-css {
+  background-color: #f24405;
+}
+
+.bg-js {
+  background-color: #4d818c;
+}
+
+.bg-html {
+  background-color: #d98f9d;
 }
 
 .skillscol {
@@ -135,33 +165,4 @@ body {
   justify-content: center;
   margin-left: 30px;
   margin-right: 30px;
-}
-
-/* Featurettes
-------------------------- */
-
-.featurette-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
-  color: white;
-}
-
-/* rtl:begin:remove */
-.featurette-heading {
-  font-family: "Poppins";
-}
-
-/* RESPONSIVE CSS
--------------------------------------------------- */
-
-@media (min-width: 40em) {
-  /* Bump up size of carousel content */
-  .featurette-heading {
-    font-size: 50px;
-  }
-}
-
-@media (min-width: 62em) {
-  .featurette-heading {
-    margin-top: 7rem;
-  }
 }
