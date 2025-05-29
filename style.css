@@ -61,7 +61,12 @@ body {
   text-shadow: 4px 4px #4d4a8c;
 }
 
-/* columns */
+
+.arrow{
+  display: flex;
+  justify-content: center;
+  margin-top: -10vh;
+}
 
 .pagecontent {
   height: 100vh;
@@ -69,6 +74,8 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+/* columns */
 
 .row {
   /*border-top: 1px solid #4d4a8c;
@@ -135,8 +142,6 @@ body {
   align-items: center;
   margin-bottom: 20px;
   margin-right: 20px;
-
-
 }
 
 .btn {
