@@ -1,4 +1,4 @@
-# Resume-HTML
+# Resume Website
 
 This is my first HTML and CSS project, built using the basic skills I learned in my Web Development Bootcamp.
 
